@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyGalleryTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                   HomeScreen( Modifier.padding(innerPadding))
+                    AppNavHost()
                 }
             }
         }
